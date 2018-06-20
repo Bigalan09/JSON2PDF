@@ -1,7 +1,7 @@
 {
   "name": "json2pdf",
   "version": "1.0.0",
-  "description": "Geenrate PDF or HTML documents from JSON files using handlebar and plugin themes.",
+  "description": "Generate PDF or HTML documents from JSON files using handlebar and plugin themes.",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
