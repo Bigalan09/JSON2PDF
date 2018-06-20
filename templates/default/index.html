@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin: 8px 0px 12px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: underline;
+            margin: 8px 0px 6px 0px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 8px 0px 6px 0px;
+        }
+
+        section {
+            margin: 25px 0px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 4px;
+            padding: 4px;
+        }
+
+        ul ul {
+            list-style: circle;
+            margin: 8px 22px;
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Features</h2>
+        <ul>
+            {{#each features}}
+            <li><strong>{{title}}</strong>
+                <ul>
+                    {{#each items}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</body>
+
+</html>
