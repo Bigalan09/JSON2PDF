@@ -1,0 +1,33 @@
+{
+  "name": "json2pdf",
+  "version": "1.0.0",
+  "description": "Geenrate PDF or HTML documents from JSON files using handlebar and plugin themes.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bigalan09/JSON2PDF.git"
+  },
+  "keywords": [
+    "pdf",
+    "handlebars",
+    "json"
+  ],
+  "author": "Alan Gardner (bigalan09)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bigalan09/JSON2PDF/issues"
+  },
+  "homepage": "https://github.com/Bigalan09/JSON2PDF#readme",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "moment": "^2.22.2",
+    "puppeteer": "^1.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
